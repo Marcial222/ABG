@@ -10,12 +10,13 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navigation"> 
         <img className="angel" src={require('../img/angel_four.jpg')} alt="logo" />    
-          <div className="links">          
-            <Link to="/">About</Link>
+          <div className="links">
+            <Link to="/">Home</Link>         
+            <Link to="about">About</Link>
             <Link to="/boardmembers">Board Members</Link>
             <Link to="/news">News</Link>
             <Link to="/volunteer">Volunteer</Link>
-            <Link to="/Events">Events</Link>
+            <Link to="/events">Events</Link>
             <Link to="/donate">Donate</Link>
             <Link to="/contact">Contact Us</Link>
         </div>        
