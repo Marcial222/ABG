@@ -2,12 +2,15 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
-    return ( 
+    return (
+      <> 
+      <p class="tagline"><a href="tel:18058847222" target="_blank" rel ="noreferrer">805.884.7222</a>
+      <a href="https://www.angelsbearinggifts.org" target="_blank" rel ="noreferrer"><img className="facebook" src={require('../img/facebook.png')} alt="Find us on Facebook"/></a>
+     </p>
       <nav className="navbar">
-        <div className="navcontainer"> 
-        <img src={require('../img/angel_four.jpg')} alt="logo" />    
-          <div className="links">
-          
+        <div className="navigation"> 
+        <img className="angel" src={require('../img/angel_four.jpg')} alt="logo" />    
+          <div className="links">          
             <Link to="/">About</Link>
             <Link to="/boardmembers">Board Members</Link>
             <Link to="/news">News</Link>
@@ -15,10 +18,10 @@ const Navbar = () => {
             <Link to="/Events">Events</Link>
             <Link to="/donate">Donate</Link>
             <Link to="/contact">Contact Us</Link>
-        </div>
-        
+        </div>        
        </div>
        </nav>
+       </>
      );
 }
  

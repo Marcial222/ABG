@@ -1,0 +1,41 @@
+.tagline {    
+    margin-left: 80%;
+    margin-top: 1%;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.tagline a {
+    margin: 2%;
+    color: rgb(30, 144, 255);
+    text-decoration: none;
+}
+
+.facebook {
+    height: 40px;
+    width: 40px;
+}
+
+.angel {
+    margin-left: 15%;
+}
+.navigation {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem 0rem;
+    background-color: orange;
+    color: black;
+}
+.links {
+    margin-left: 6%;
+    display: flex;
+}
+
+.links a {
+    margin: 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
