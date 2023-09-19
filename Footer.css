@@ -9,11 +9,13 @@
 }
   .footer-container {
     display: flex;
-    align-items: center;
+    
   }
   
 .copyright {
+    align-items: center;
     margin-left: 10%;
+    padding-top: 1%;
 }
 
 .copyright a {
@@ -30,6 +32,8 @@
 .footer-ul  {
     display: flex;
     flex-direction: row;
+    padding-top: 1.3em;
+    padding-left: 1em;
     list-style-type: none;
     white-space: nowrap;
 }
