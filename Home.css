@@ -1,0 +1,91 @@
+.index-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 30vh;
+    width: 100vw;
+    background-color:rgba(102, 0, 204, 0.79);
+} 
+
+.index-text {
+    text-align: center;
+}
+
+.index-text p  {    
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+}
+
+.like-a-button {
+    max-width: 25%;
+    max-height: 13%;
+    border: 3px solid rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-radius: 50%;
+    background-color: rgb(90, 90, 90);
+    margin: 0 auto;
+    transition: 400msec;
+}
+
+.like-a-button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 0.8em;
+}
+
+.like-a-button:hover {
+    background-color: rgb(250, 250, 250);
+    border:4px solid rgb(0, 192, 240);
+}
+
+.like-a-button a:hover{
+   color: rgb(0, 192, 240);
+   font-weight: 600;
+}
+
+img {
+    max-width: 90%;
+    margin-top: -5%;
+}
+
+.story-container{
+    display: flex;
+    background-color: rgb(137, 207, 240, 0.6);
+    width: 42%;
+    margin-top: 3%;
+    margin-left: 3%;
+    box-shadow: -12px 12px 20px 2px #0a0a0aa6;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-container h1 {
+    padding-top: 1%;
+    font-family: 'Mooli', sans-serif;
+} 
+
+.text-container h2 {
+    color: rgba(102, 0, 204, 0.79);
+    text-transform: uppercase;
+    font-size: 2em;
+} 
+
+.text-container h3 {
+    font-family: 'Mooli', sans-serif;
+    font-size: 1.4em;
+}
+
+.text-container p {
+    font-family: 'Namun Gothic', sans-serif;
+    text-align: center;
+    font-size: 1.em;
+}
+
+
+
+

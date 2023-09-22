@@ -1,13 +1,13 @@
 .nav-container {
     width: 100%;
-    height: 25vh;
+    height: 20vh;
     background-color:  rgba(102, 0, 204, 0.79);
 }
 
 .tagline {
     position: relative;
     height: 5vh;
-    margin-left: 76%;
+    margin-left: 75%;
 }
 .tagline a {
     text-decoration: none;
@@ -16,18 +16,22 @@
     font-weight: 600;
     color: rgb(0, 192, 240);
 }
+.social {
+    margin-top: 2%;
+}
 .angel {
     margin-top: 0.5em;
     margin-right: 2em;
     margin-left: 5em;
 }
 
-.navbar  {
+/*.navbar  {
     display: flex;
-    width: 100%;
     justify-content: center;
+    width: 100%;    
     height: 15vh;  
-}
+    background-color: orange;
+}*/
 
 .nav-body {
     display: flex;
@@ -36,22 +40,24 @@
     list-style-type: none;
 }
 
-.link-items {
-    margin-left: 3em;
-    margin-top: 2.5em;
-    background-color: rgb(255, 255, 255);
+.nav-link {
+    margin-top: 2em;
+    margin-left: 2%;
 }
 
-.link-items a {
+.nav-link a {
     text-decoration: none;
     font-size: 1.2em;
-    color: black;
     font-weight: 600;
+    color: rgb(0, 0, 0);
 }
 
-.link-items a:hover {
-    color: rgb(30, 144, 255);
+.nav-link a:hover {
+    color: rgb(0, 192, 240);
 }
+
+
+
 
 
 
