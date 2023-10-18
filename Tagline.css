@@ -1,0 +1,24 @@
+.taglineContainer {
+    width: 100%;
+    background-color: rgba(102, 0, 204, 0.79);
+}
+
+.tagline {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-top: 0.5em;
+    padding-right: 2em;
+}
+
+.tagline a {
+    padding-right: 1em;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.tagline a:hover {
+    color: rgb(0, 192, 240);
+}

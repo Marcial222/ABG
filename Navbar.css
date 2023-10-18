@@ -1,48 +1,30 @@
 .nav-container {
     width: 100%;
-    height: 20vh;
     background-color:  rgba(102, 0, 204, 0.79);
 }
 
-.tagline {
-    position: relative;
-    height: 5vh;
-    margin-left: 75%;
-}
-.tagline a {
-    text-decoration: none;
-    padding: 1em;
-    font-size: 1.2em;
-    font-weight: 600;
-    color: rgb(0, 192, 240);
-}
-.social {
-    margin-top: 2%;
-}
 .angel {
     margin-top: 0.5em;
     margin-right: 2em;
     margin-left: 5em;
 }
 
-/*.navbar  {
+.navbar  {
     display: flex;
     justify-content: center;
-    width: 100%;    
-    height: 15vh;  
-    background-color: orange;
-}*/
+    width: 100%;
+}
 
 .nav-body {
     display: flex;
-    width: 90%;
+    width: 100%;
     background-color: white;
     list-style-type: none;
 }
 
 .nav-link {
     margin-top: 2em;
-    margin-left: 2%;
+    margin-left: 4em;
 }
 
 .nav-link a {
