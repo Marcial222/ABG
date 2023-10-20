@@ -44,6 +44,7 @@ export const routing = (
           <Route path="accessibility" element={<Accessibility />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
+        
         <Footer />
       </div>
     </BrowserRouter>
